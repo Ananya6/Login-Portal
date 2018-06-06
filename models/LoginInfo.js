@@ -15,7 +15,7 @@ const loginSchema=new Schema({
   Email:{
     type:String,
     required:true,
-    unique:true
+    
   }
 },{
   timestamps:true
